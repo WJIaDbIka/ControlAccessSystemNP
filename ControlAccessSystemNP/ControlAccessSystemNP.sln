@@ -1,10 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{1A3834D2-1488-4688-96A3-666EA82957A3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A3834D2-1488-4688-96A3-666EA82957A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3834D2-1488-4688-96A3-666EA82957A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3834D2-1488-4688-96A3-666EA82957A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3834D2-1488-4688-96A3-666EA82957A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {873CBC6F-3B0E-48D4-97ED-E264DD97A05E}
 	EndGlobalSection
 EndGlobal
