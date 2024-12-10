@@ -5,8 +5,8 @@ namespace DataLayer.Repository.Interfaces
 	public interface ICardRepository
 	{
 		Task CreateCardAsync(Card entity);
-		Task ReadCardAsync(int id);
-		Task ReadAllCardsAsync();
+		Task<Card> ReadCardAsync(int id);
+		Task<ICollection<Card>> ReadAllCardsAsync();
 		Task UpdateCardAsync(Card entity);
 		Task DeleteCardAsync(Card entity);
 	}

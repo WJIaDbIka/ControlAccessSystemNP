@@ -5,8 +5,8 @@ namespace DataLayer.Repository.Interfaces
 	public interface IAdministratorRepository
 	{
 		Task CreateAdministratorAsync(Administrator entity);
-		Task ReadAdministratorAsync(int id);
-		Task ReadAllAdministratorsAsync();
+		Task<Administrator> ReadAdministratorAsync(int id);
+		Task<ICollection<Administrator>> ReadAllAdministratorsAsync();
 		Task UpdateAdministratorAsync(Administrator entity);
 		Task DeleteAdministratorAsync(Administrator entity);
 	}
