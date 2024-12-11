@@ -25,16 +25,11 @@ namespace DataLayer.EF
 
 			modelBuilder.Entity<Worker>()
 				.HasOne(w => w.Card)
-				.WithOne()
-				.HasForeignKey<Worker>(w => w.CardId);
+				.WithOne(c => c.Worker)
+				.HasForeignKey<Card>(c => c.WorkerId);
 
 			modelBuilder.Entity<Card>()
 				.HasKey(c => c.Id);
-
-			modelBuilder.Entity<Card>()
-				.HasOne(c => c.Employee)
-				.WithOne()
-				.HasForeignKey<Card>(c => c.EmployeeId);
 		}
 	}
 }

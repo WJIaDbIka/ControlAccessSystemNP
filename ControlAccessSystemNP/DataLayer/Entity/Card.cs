@@ -4,8 +4,8 @@
 	{
 		public int Id { get; set; }
 
-		public int EmployeeId { get; set; }
+		public int WorkerId { get; set; }
 
-		public Worker Employee { get; set; }
+		public Worker Worker { get; set; }
 	}
 }

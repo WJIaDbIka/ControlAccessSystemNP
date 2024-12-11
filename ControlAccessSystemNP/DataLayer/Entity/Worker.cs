@@ -10,8 +10,6 @@
 
 		public string Position { get; set; } = string.Empty;
 
-		public int CardId { get; set; }
-
 		public Card Card { get; set; }
 	}
 }
