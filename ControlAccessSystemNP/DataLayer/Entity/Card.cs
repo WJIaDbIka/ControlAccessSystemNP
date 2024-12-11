@@ -6,6 +6,6 @@
 
 		public int EmployeeId { get; set; }
 
-		public Employee Employee { get; set; }
+		public Worker Employee { get; set; }
 	}
 }

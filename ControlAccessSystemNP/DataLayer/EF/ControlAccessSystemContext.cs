@@ -20,11 +20,6 @@ namespace DataLayer.EF
 			modelBuilder.Entity<Administrator>()
 				.HasKey(a => a.Id);
 
-			modelBuilder.Entity<Administrator>()
-				.HasOne(a => a.Card)
-				.WithOne()
-				.HasForeignKey<Administrator>(a => a.CardId);
-
 			modelBuilder.Entity<Worker>()
 				.HasKey(w => w.Id);
 
