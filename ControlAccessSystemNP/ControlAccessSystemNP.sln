@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesLayer", "BussinesLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesLayer.Test", "BussinesLayer.Test\BussinesLayer.Test.csproj", "{ED4B0DEF-92E5-42AC-AFF8-B6C654F335B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCL", "CCL\CCL.csproj", "{F4468472-A173-4765-ABCE-2F0EC112ED08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{ED4B0DEF-92E5-42AC-AFF8-B6C654F335B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED4B0DEF-92E5-42AC-AFF8-B6C654F335B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED4B0DEF-92E5-42AC-AFF8-B6C654F335B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4468472-A173-4765-ABCE-2F0EC112ED08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4468472-A173-4765-ABCE-2F0EC112ED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4468472-A173-4765-ABCE-2F0EC112ED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4468472-A173-4765-ABCE-2F0EC112ED08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
