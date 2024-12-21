@@ -23,7 +23,7 @@ namespace BussinesLayer.Services
             _db = unitOfWork;
 
 			_mapper = new MapperConfiguration(
-				cfg => cfg.CreateMap<Card, CardDTO>()
+				cfg => cfg.CreateMap<Card, CardDTO>().ReverseMap()
 				).CreateMapper();
 		}
 

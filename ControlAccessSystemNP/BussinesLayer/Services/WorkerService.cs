@@ -28,7 +28,7 @@ namespace BussinesLayer.Services
 			_db = unitOfWork;
 
 			_mapper = new MapperConfiguration(
-				cfg => cfg.CreateMap<Worker, WorkerDTO>()
+				cfg => cfg.CreateMap<Worker, WorkerDTO>().ReverseMap()
 				).CreateMapper();
 		}
 
