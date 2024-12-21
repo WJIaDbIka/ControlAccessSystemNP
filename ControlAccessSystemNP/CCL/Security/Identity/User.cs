@@ -8,19 +8,16 @@ namespace CCL.Security.Identity
 {
 	public abstract class User
 	{
-        public User(int userId, string name, int cardId, string userType)
+        public User(int userId, string name, string userType)
         {
             UserId = userId;
 			Name = name;
-			CardId = cardId;
 			UserType = userType;
         }
 
         public int UserId { get; }
 
 		public string Name { get; }
-
-		public int CardId { get; }
 
 		protected string UserType { get; }
 	}

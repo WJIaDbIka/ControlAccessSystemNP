@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CCL.Security.Identity
 {
-	public class Worker : User
+	public class WorkerIdentity : User
 	{
-        public Worker(int userId, string name, int cardId, string userType)
-            : base(userId, name, cardId, userType) { }
+        public WorkerIdentity(int userId, string name, string userType)
+            : base(userId, name, userType) { }
     }
 }

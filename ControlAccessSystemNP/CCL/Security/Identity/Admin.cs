@@ -8,7 +8,7 @@ namespace CCL.Security.Identity
 {
 	public class Admin : User
 	{
-        public Admin(int userId, string name, int cardId, string userType)
-            : base(userId, name, cardId, userType) { }
+        public Admin(int userId, string name, string userType)
+            : base(userId, name, userType) { }
     }
 }
